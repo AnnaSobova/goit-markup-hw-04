@@ -337,12 +337,26 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
+  background-color: none;
   border-radius: 50%;
 }
 
-.social-list-link.social-list-icon {
+.social-list-icon {
   fill: var(--icon-grey-main-color);
+}
+
+/* .social-list-icon:hover,
+.social-list-icon:focus {
+  fill: #ffffff;
+} */
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon {
+  fill: #ffffff;
 }
 
 .social-list-item {
@@ -419,6 +433,10 @@ img {
 }
 /* projects cards finish */
 /* portfolio end */
+
+/* clients block section start */
+
+/* clients block section finish */
 
 /* footer start */
 
