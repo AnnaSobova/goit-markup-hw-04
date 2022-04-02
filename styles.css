@@ -337,11 +337,11 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: teal;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
-.social-list-icon {
+.social-list-link.social-list-icon {
   fill: var(--icon-grey-main-color);
 }
 
