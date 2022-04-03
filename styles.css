@@ -115,6 +115,7 @@ img {
   align-items: center;
   margin-left: auto;
 }
+
 .contact-info-head-size {
   margin-right: 50px;
 }
@@ -141,6 +142,26 @@ img {
 .contact-number:hover,
 .contact-number:focus {
   color: var(--accent-color);
+}
+.contact-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+.contact-logo-icon {
+  fill: var(--icon-grey-main-color);
+  margin-right: 10px;
+}
+
+.contact-mail:hover .contact-logo-icon,
+.contact-mail:focus .contact-logo-icon {
+  fill: var(--accent-color);
+}
+
+.contact-number:hover .contact-logo-icon,
+.contact-number:focus .contact-logo-icon {
+  fill: var(--accent-color);
 }
 
 .hero {
