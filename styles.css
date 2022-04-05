@@ -400,6 +400,7 @@ img {
 .portfolio_projects_btn:focus {
   color: var(--main-light-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
 }
 /* projects cards start */
 .project {
@@ -409,20 +410,26 @@ img {
   margin-top: -30px;
 }
 .projects-block {
-  flex-basis: calc ((100% - 90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
-.projects-block:hover,
-.projects-block:focus {
-  box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.3);
-}
+
 .project-card-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+}
+.project-card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.project-card-link:hover,
+.project-card-link:focus {
+  box-shadow: 2px 6px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
 .projects_name {
