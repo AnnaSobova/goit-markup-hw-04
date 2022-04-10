@@ -448,6 +448,38 @@ img {
   color: var(--light-dark-text-color);
   cursor: pointer;
 }
+.project-card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--main-light-text-color);
+  text-align: start;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
+
+.project-card-link:hover .overlay,
+.project-card-link:focus .overlay {
+  transform: translateY(0%);
+}
+
 /* projects cards finish */
 /* portfolio end */
 
