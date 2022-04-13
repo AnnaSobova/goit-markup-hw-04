@@ -123,9 +123,9 @@ img {
 .nav-list-link:focus::after {
   transform: scaleX(1);
 }
-.current:active {
+/* .current:active {
   background-color: var(--accent-color);
-}
+} */
 .nav-list-item {
   margin-right: 50px;
 }
