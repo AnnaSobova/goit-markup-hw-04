@@ -123,6 +123,9 @@ img {
 .nav-list-link:focus::after {
   transform: scaleX(1);
 }
+.current {
+  background-color: #212121;
+}
 
 .nav-list-item {
   margin-right: 50px;
