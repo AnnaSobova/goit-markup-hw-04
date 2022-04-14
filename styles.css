@@ -652,9 +652,11 @@ img {
 .social-list-link-footer:hover .social-list-icon {
   fill: #ffffff;
 }
+
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
+
 .social-list-icon-footer {
   fill: var(--main-light-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
